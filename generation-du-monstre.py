@@ -6,6 +6,6 @@ def generation_du_monstre():
     PV = random.randrange(5,20)
     Force = random.randrange(3,8)
     Armure = random.randrange(0,5)
-    monstre = ["Orc", PV, Force, Armure]
+    monstre = [PV, Force, Armure]
     return(monstre)
 
