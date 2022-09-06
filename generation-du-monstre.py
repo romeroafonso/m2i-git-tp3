@@ -1,4 +1,4 @@
-#! /bin/python3
+#!/usr/bin/env python3
 # fonction qui génére un monstre avec des attributs différents
 
 def generation_du_monstre():
