@@ -19,5 +19,4 @@ def menu():
     return render_template("index.html", monstres=monstres, pseudo=pseudo, nbr_monstres=len(monstres))
     
 if __name__ == "__main__":
-    # app.run(debug=True, host='0.0.0.0', port=8001)
-    print(jeu("Avant"))
+    app.run(debug=True, host='0.0.0.0', port=8001)
