@@ -13,11 +13,13 @@
         <input type="text" name="nom">
         <button>Valider</button>
     </form>
-
-    <ul>
-        {% for monstre in monstres %}
-          <li>"{{ monstre }}"</li>
-        {% endfor %}
-    </ul>
+    {% if pseudo %}
+        <p>{{ pseudo }} vous avez tuée {{ nbr_monstres }}</p>
+        <ul>
+            {% for monstre in monstres %}
+            <li>"{{ monstre }}"</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
 </body>
 </html>
